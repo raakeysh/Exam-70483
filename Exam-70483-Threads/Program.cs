@@ -29,6 +29,8 @@ namespace Exam_70483_Threads
                 Console.WriteLine("Main Thread Do some work {0}", i);
                 Thread.Sleep(TimeSpan.FromSeconds(1));
             }
+
+            t.Join(); // Does not make any difference
         }
 
         
