@@ -1,14 +1,14 @@
 ﻿Steps to publish solution to git.
 
-1. Open the solution in Visual Studio 2013
-2. Select File | Add to Source Control
-3. Select the Microsoft Git Provider
-4. That creates a local GIT repository
-5. Surf to GitHub
-6. Create a new repository DO NOT SELECT Initialize this repository with a README
-7. That creates an empty repository with no Master branch
+1. Open the solution in Visual Studio 2013.
+2. Select File | Add to Source Control.
+3. Select the Microsoft Git Provider.
+4. That creates a local GIT repository.
+5. Surf to GitHub.
+6. Create a new repository DO NOT SELECT Initialize this repository with a README.
+7. That creates an empty repository with no Master branch.
 8. Once created open the repository and copy the URL (it's on the right of the screen in the current version)
-9. Go back to Visual Studio
+9. Go back to Visual Studio.
 10. Make sure you have the Microsoft Git Provider selected under Tools/Options/Source Control/Plug-in Selection
 11. Open Team Explorer
 12. Select Home | Unsynced Commits
