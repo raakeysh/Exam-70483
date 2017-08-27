@@ -14,7 +14,7 @@ namespace Exam_70483_Threads
             for(int i = 0; i<10; i++)
             {
                 Console.WriteLine("Inside main {0}", i );
-                Thread.Sleep(0);
+                Thread.Sleep(TimeSpan.FromSeconds(2));
             }
             Console.ReadLine();
         }
@@ -23,6 +23,12 @@ namespace Exam_70483_Threads
         {
             Thread t = new Thread(new ThreadStart(ThreadMethod));
             t.Start();
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Main Thread Do some work {0}", i);
+                Thread.Sleep(TimeSpan.FromSeconds(1));
+            }
         }
 
         
